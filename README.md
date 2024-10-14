@@ -1,5 +1,5 @@
 ## 简介
-**Crypto** 是一款专注于加密货币管理的命令行工具，能够帮助用户生成钱包地址、转换私钥和生成自定义的 TRX 靓号。该工具操作简单高效，适合加密货币的爱好者和开发者使用。
+**Crypto** 是一款专注于加密货币管理的命令行工具，能够帮助用户生成钱包地址、转换私钥和生成自定义的 TRX 靓号。该工具操作简单高效，适合加密货币的爱好者和开发者使用，支持多系统。
 
 ## 功能
 
@@ -16,7 +16,7 @@
      ```
    - 示例：
      ```bash
-     ./crypto-win.exe k 57215bfa76ba244e38acade770867baf0827344612c2d6d5f28e69c92810def8
+     ./crypto-win.exe k 0541bb4d9d07e56994d5e665f307ef0b7bb4288e29c59399ec111c7e7ab50ada
      ```
 
 3. **助记词转钱包地址**
@@ -26,11 +26,11 @@
      ```
    - 示例：
      ```bash
-     ./crypto-win.exe t yard,body,search,bleak,already,hint,melt,fabric,length,blood,split,hole
+     ./crypto-win.exe t toy,able,spring,scout,wage,choose,shadow,scrub,mesh,essence,fancy,junk
      ```
      或
      ```bash
-     ./crypto-win.exe t 'yard body search bleak already hint melt fabric length blood split hole'
+     ./crypto-win.exe t 'toy,able,spring,scout,wage,choose,shadow,scrub,mesh,essence,fancy,junk'
      ```
 
 4. **TRX 靓号生成（末尾位指定）**
@@ -42,7 +42,7 @@
 
 ## 安装和使用
 
-1. 下载并解压 `crypto-win.exe` 文件。
+1. 根据操作系统选择下载并解压，例如windos就下载 `crypto-win.exe` 文件。
 2. 打开命令提示符或终端，进入程序所在的目录。
 3. 使用上述命令运行程序并生成所需内容。
 
